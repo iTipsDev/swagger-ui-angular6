@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SwaggerComponent } from './swagger/swagger.component';
 
-@NgModule({
+@NgModule( {
   declarations: [
     AppComponent,
     SwaggerComponent
@@ -14,10 +14,16 @@ import { SwaggerComponent } from './swagger/swagger.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  exports: [SwaggerComponent]
-})
-export class AppModule { }
+  bootstrap: [
+    AppComponent
+  ],
+  exports: [
+    SwaggerComponent
+  ]
+} )
+export class AppModule {
+
+}
