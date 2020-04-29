@@ -17,7 +17,9 @@ export class SwaggerComponent implements AfterViewInit {
 
   ngAfterViewInit() {
 
-    const swaggerJsonUrl: string = 'http://petstore.swagger.io/v2/swagger.json';
+    // const swaggerJsonUrl: string = 'http://petstore.swagger.io/v2/swagger.json';
+
+    const swaggerJsonUrl: string = 'http://swaggerui.taxdochub.com/fdxapi4.1.main.tax.yaml.parsed.json';
 
     const ui = SwaggerUI(
       {
