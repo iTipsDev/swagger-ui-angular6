@@ -19,7 +19,7 @@ export class SwaggerComponent implements AfterViewInit {
 
     // const swaggerJsonUrl: string = 'http://petstore.swagger.io/v2/swagger.json';
 
-    const swaggerJsonUrl: string = 'http://swaggerui.taxdochub.com/fdxapi4.1.main.tax.yaml.parsed.json';
+    const swaggerJsonUrl: string = 'https://api.taxdochub.com/openapi.json';
 
     const ui = SwaggerUI(
       {

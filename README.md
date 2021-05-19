@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
+## Prerequisite
+
+Open API JSON file must be available at: https://api.taxdochub.com/openapi.json
+
+Locally this translates to: /Users/brucewilcox/dev/java/year2020/com-taxdochub-api/src/main/webapp
+
+After build, this content (dist/index.html, etc) is pushed to same directory.
+
 ## Start the project
 
 Run `npm install` and `ng serve`. Server will start at port 4200. Go to localhost:4200.

@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+# This is obsolete.
+
+# Site is now in Google AppEngine instead of Google Storage
 
 JSON_FILE="/Users/brucewilcox/dev/java/year2019/com-taxdochub-site/src/main/webapp/json/fdxapi4.1.main.tax.yaml.parsed.json"
 
